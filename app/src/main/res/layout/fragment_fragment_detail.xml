@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic3"
+    tools:context=".fragment_detail">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:background="#88FFFFFF" >
+
+            <TextView
+                android:id="@+id/title_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:accessibilityLiveRegion="none"
+                android:fontFamily="sans-serif-condensed"
+                android:text=" title "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="50dp"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:id="@+id/description_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text=" title "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/linkfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF98AE"
+                android:backgroundTint="#FF98AE"
+                android:text="Facebook" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
